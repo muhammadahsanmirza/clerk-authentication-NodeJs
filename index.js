@@ -1,7 +1,10 @@
 const express = require("express");
+var cors = require('cors')
+
 const { verifyToken } = require("@clerk/clerk-sdk-node");
 
 const app = express();
+app.use(cors())
 
 app.post("/protected-route", async (req, res) => {
   try {
