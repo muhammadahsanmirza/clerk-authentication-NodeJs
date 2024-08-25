@@ -1,0 +1,14 @@
+{
+  "name": "clerk-authentication-server",
+  "version": "1.0.0",
+  "description": "Clerk authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Ahsan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
